@@ -1,8 +1,5 @@
 # DSI2 Tips
 
-## how to create own modules/packages
+1. how to create own modules/packages
 
-> module example
-
-- make functions in `funcs.py`
-- put in the same directory of `module_test.ipynb`
+- codes are [here](https://github.com/nozomiyamada/DSI2/tree/master/module_exmaple)

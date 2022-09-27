@@ -37,7 +37,7 @@ In `module_test1.ipynb`, just import `funcs`
 import funcs
 ~~~
 
-When use the functions, call them with dot-notation
+When use the functions, call them with dot-notation `funcs.XXX`
 
 ~~~python
 """call functions in funcs.py"""
@@ -51,7 +51,7 @@ print(funcs.entropy(labels))
 > 1.0114042647073518
 ~~~
 
-You can also use the libraries that are imported in your self `.py` with dot-notation.
+You can also use the libraries that are imported in `funcs.py` with dot-notation.
 
 ~~~python
 """"call numpy already imported in funcs.py"""
@@ -69,13 +69,15 @@ np.mean([1,2,3])
 Or, you can import functions directory by `from ... import ...`
 
 ~~~python
-from funcs import gini, entropy
+from funcs import gini, entropy, np
 
 print(gini(labels))
 print(entropy(labels))
+print(np.mean([1,2,3,4,5]))
 
 > 0.6111111111111112
 > 1.0114042647073518
+> 3.0
 ~~~
 
 

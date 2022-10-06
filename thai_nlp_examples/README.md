@@ -12,7 +12,7 @@
 - Sequence to Sequence
 
 
-> Unsuopervised Learning
+> Unsupervised Learning
 
 - **Word Embeddings**
 - Topic Modelling

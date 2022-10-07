@@ -22,4 +22,4 @@ Here are the examples of **Text Classification** and **Word Embeddings**.
 1. [Text Classification with Logistic Regression](https://github.com/nozomiyamada/DSI2/blob/master/thai_nlp_examples/text_classification_LogReg.ipynb)
 2. Text Classification with Fully-Connected Neural Network
 3. Text Classification with LSTM
-4. Word Embeddings of news articles
+4. [Word Embeddings of news articles](https://github.com/nozomiyamada/DSI2/blob/master/thai_nlp_examples/word_embedding.ipynb)
